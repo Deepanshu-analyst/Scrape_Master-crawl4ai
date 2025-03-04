@@ -25,23 +25,19 @@
    cd saas-web-scraper
 
 ### Create and activate a virtual environment:
-    ```bash
     python -m venv venv
 
-# On Windows:
  ```bash
+# On Windows:
 venv\Scripts\activate
 
 # On Mac/Linux:
- ```bash
 source venv/bin/activate
 
 ### Install dependencies:
- ```bash
 pip install -r requirements.txt
 
 ### Install Playwright browsers:
- ```bash
 playwright install
 
 ## Set up environment variables: Create a .env file in the project root and add your API keys:
@@ -58,7 +54,6 @@ Create a free Supabase account.
 Create a new project.
 Run this SQL in the Supabase SQL Editor to create the table
 
- ```bash
 CREATE TABLE IF NOT EXISTS scraped_data (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     unique_name TEXT NOT NULL,
@@ -73,7 +68,6 @@ CREATE TABLE IF NOT EXISTS scraped_data (
 
 Start the Streamlit Frontend: From the project root, run
 
- ```bash
 streamlit run streamlit_app.py
 
 
