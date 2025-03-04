@@ -1,0 +1,12 @@
+litellm
+python-dotenv
+pydantic
+pandas
+openpyxl
+streamlit-tags
+supabase
+streamlit
+crawl4ai
+beautifulsoup4
+httpx
+playwright
