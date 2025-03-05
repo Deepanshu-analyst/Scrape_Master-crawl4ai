@@ -21,8 +21,8 @@
 ### Setup
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo/saas-web-scraper.git
-   cd saas-web-scraper
+   git clone https://github.com/Deepanshu-analyst/Scrape_Master-crawl4ai
+   cd Scrape_Master-crawl4ai
 
 ### Create and activate a virtual environment:
     python -m venv venv
